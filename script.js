@@ -11,7 +11,7 @@ updateClock =()=>{
   let ampm = "AM"
 
   if(h > 12){
-    h = 12 - h // converting 24hr format to 12hr
+    h = h-12 // converting 24hr format to 12hr
     ampm = "PM"
   }
 
